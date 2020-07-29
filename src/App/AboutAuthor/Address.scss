@@ -1,0 +1,26 @@
+.Address {
+  display: flex;
+  border-bottom: solid 1px lightgrey;
+  width: 50%;
+  margin-left: 25%;
+  padding: 10px;
+        .Address__map {
+            width: 30%;
+        }
+        .Address__info {
+            margin-left: 100px;
+            margin-right: 250px;
+        }
+}
+
+@media(max-width: 1225px){
+    .Address{
+        display: flex;
+        flex-direction: column;
+        .Address__map{width: 100%;
+        }
+        .Address__info{
+            width: 100%;margin: 0 auto;
+        }
+    }
+}

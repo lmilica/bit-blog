@@ -1,0 +1,14 @@
+.Company{
+    border-bottom: solid 1px lightgrey;
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    padding-left: 100px;
+}
+
+@media(max-width: 1000px){
+    .Company{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

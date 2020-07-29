@@ -1,0 +1,19 @@
+.AuthorList {
+  margin: 0 auto;
+  width: 70%;
+  border: solid 2px lightgrey;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.AuthorList__name {
+  text-align: center;
+  margin: 10px 10px;
+}
+
+.AuthorList:hover {
+  margin-bottom: 30px;
+  background-color: lightblue;
+    h3{
+      color: white;
+    }
+}

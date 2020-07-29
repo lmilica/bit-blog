@@ -1,0 +1,17 @@
+.Post {
+  text-align: center;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.Post:hover {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color: lightblue;
+    color: white;
+    h4{
+      color: white;
+    }
+}
